@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Momo+Signature&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sekuya&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    min-height: 10vh;
+    position: relative;
+    font-family: "Poppin", sans-serif;
+    background-color: #ff0000;
+    overflow: visible;
+    z-index: 2;
+}
+
+.nike{
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+    font-style: italic;
+    left: 2%;
+    top: 1%;
+    color: #ffffff;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    top: 39%;
+    left: 1.2%;
+}
+.nav{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    
+    
+}
+.nav li{
+    list-style: none;
+    margin: 0 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.nav li:hover{
+    text-decoration: underline;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+.heading{
+    position: absolute;
+    top: 50px;
+    left: 47px;
+    font-size: 120px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    line-height: 1.1;
+    z-index: 1;
+    
+}
+.heading span{
+    font-size: 50px;
+    color: red;
+  text-shadow: 
+    -2px -2px 0 white,
+     2px -2px 0 white,
+    -2px  2px 0 white,
+     2px  2px 0 white;
+    position: absolute;
+    left: 19%;
+}
+.home-img{
+    position: fixed;
+    bottom: 55px;
+    left: 650px;
+    width: 600px;
+    transform: rotate(-20deg);
+    z-index: 3;
+    transition: 0.4s;
+    z-index: 9999;
+}
+
+.home h3 {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    z-index: 4;
+    bottom: 120px;
+    right: 2%;
+}
+#btn{
+    position: absolute;
+    bottom: 89px;
+    right: 160px;
+}
+/* second  */
+.second{
+    height: 100vh;
+    position: relative;
+    font-family: "Poppin", sans-serif;
+    background-color: #ffffff;
+    z-index: 0;
+    overflow: visible;
+}
+.why{
+    position: absolute;
+    top: 43px;
+    left: 39px;
+    font-size: 44px;
+    font-weight: 800;
+    color: #ff0000;
+}
+.why span{
+    color: black;
+}
+.ans{
+    position: absolute;
+    width: 550px;
+    top: 155px;
+    left: 50px;
+    font-weight: 600;
+}
+.box{
+    position: absolute;
+    bottom: 0;
+    height: 240px;
+    width: 100%;
+    background-color: red;
+}
+.box .sec{
+    padding-top: 70px;
+    padding-left: 45px;
+}
